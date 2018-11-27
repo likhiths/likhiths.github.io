@@ -244,7 +244,8 @@
     text-align: center;
     transition: all ease .5s;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 13px;
+    margin-bottom: 6px;
     border: none;
   }
   .prog_button1:hover {
@@ -263,7 +264,8 @@
     text-align: center;
     transition: all ease .5s;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 12px;
+    margin-bottom: 6px;
     border: none;
   }
   .prog_button2:hover {
@@ -369,9 +371,9 @@
     transition: all ease .5s;
     cursor: pointer;
     border: none;
-    margin-top: 11px;
+    margin-top: 13px;
     margin-left: 55px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding-top: 7px;
     padding-bottom: 7px;
   }
@@ -442,9 +444,9 @@
     cursor: pointer;
     border: none;
     font-weight: lighter;
-    margin-top: 10px;
+    margin-top: 14px;
     margin-left: 25px;
-    margin-bottom: 6px;
+    margin-bottom: 16px;
   }
   .research_button:hover {
     background-color: black;
@@ -508,8 +510,8 @@
     text-align: center;
     transition: all ease .5s;
     cursor: pointer;
-    margin-top: 9px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 14px;
     border: none;
   }
   .news1_button:hover {
@@ -548,8 +550,8 @@
     transition: all ease .5s;
     cursor: pointer;
     border: none;
-    margin-top: 9px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 14px;
   }
   .news2_button:hover {
     background-color: black;
@@ -925,7 +927,7 @@
       background-position: center center;
     }
     .main_image:hover {
-      background-image: url(../Image/mainimg1.jpg);
+      background-image: url(../Image/mainimg2.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       height: 520px;
