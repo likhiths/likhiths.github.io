@@ -1,5 +1,4 @@
 
-  /* @media only screen and (max-width:480px)*/
   @import url('https://fonts.googleapis.com/css?family=Quicksand');
   .pcmenu,.pcview,.pcadmission,.pcresearch,.pcnewscontent,.pcnews1 {
     display: none;
@@ -340,19 +339,19 @@
     font-weight: normal;
     padding-top: 10px;
     color: red;
-    padding-left: 54px;
+    padding-left: 45px;
     text-align: left;
   }
   .admission_image h4 {
     font-size: 20px;
     font-weight: lighter;
     padding-top: 10px;
-    padding-left: 55px;
+    padding-left: 45px;
   }
 
   .admission_image p {
     width: 80%;
-    padding-left: 55px;
+    padding-left: 46px;
     margin-top: 10px;
     font-size: 17px;
     margin-left: 0;
@@ -493,7 +492,7 @@
   }
   .news1_content p {
     font-family: Quicksand;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: normal;
     color: red;
   }
@@ -529,7 +528,7 @@
     width: 100%;
     height: auto;
     margin-top: -4px;
-    font-size: 19px;
+    font-size: 18px;
     font-family: Quicksand;
     font-weight: normal;
     padding-top: 10px;
@@ -609,10 +608,10 @@
   }
   .event1_img {
     float: left;
-    padding-right: 15px;
+    padding-right: 13px;
   }
   .first1 {
-    font-size: 16px;
+    font-size: 13px;
     font-family: Quicksand;
     font-weight: normal;
     padding: 3px;
@@ -620,7 +619,7 @@
     text-align: left;
   }
   .second {
-    font-size: 15px;
+    font-size: 13px;
     font-family: Quicksand;
     font-weight: normal;
     padding: 3px;
@@ -628,12 +627,14 @@
   }
   .second2 {
     text-align: left;
+    font-size: 13px;
   }
   .second1 {
     text-align: left;
+    font-size: 13px;
   }
   .first2 {
-    font-size: 16px;
+    font-size: 13px;
     font-family: Quicksand;
     font-weight: normal;
     padding: 3px;
@@ -650,14 +651,14 @@
     padding-right: 15px;
   }
   .event1_button {
-    padding-top: 6px;
-    padding-bottom: 6px;
-    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 13px;
     font-family: Quicksand;
     background-color: red;
     color: white;
     line-height: 100%;
-    width: 91px;
+    width: 85px;
     height: auto;
     transition: all ease .5s;
     cursor: pointer;
@@ -669,19 +670,19 @@
     color: white;
   }
   .event2_button {
-    font-size: 14px;
+    font-size: 13px;
     font-family: Quicksand;
     background-color: red;
     color: white;
     line-height: 100%;
-    width: 91px;
+    width: 85px;
     height: auto;
     transition: all ease .5s;
     cursor: pointer;
     border: none;
     margin-top: 8px;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   .event2_button:hover {
     background-color: black;
@@ -689,7 +690,7 @@
   }
   .view_button2 {
     margin-top: 40px;
-    margin-left: 65%;
+    margin-left: 57%;
     align: center;
     font-size: 18px;
     font-family: Quicksand;
@@ -728,7 +729,7 @@
     float: left;
   }
   .link h3 {
-    padding-left: 52px;
+    padding-left: 4px;
     padding-top: 23px;
     color: red;
     font-family: Quicksand;
@@ -737,7 +738,7 @@
   }
   .link ul {
     padding-top: 14px;
-    padding-left: 53px;
+    padding-left: 18px;
     list-style-type: disc;
     color: white;
   }
@@ -768,9 +769,9 @@
   }
   /* socilicons css */
   .socialicons {
-    float: right;
+    /* float: right; */
     padding-top: 21px;
-    padding-right: 69px;
+    /* padding-right: 69px; */
     cursor: pointer;
   }
   .fa-facebook-f {
@@ -855,6 +856,7 @@
     background-color: red;
     color: white;
   }
+
   /* end of mobile css */
   /* pc css */
   @media only screen and (min-width: 1200px){
@@ -1002,7 +1004,7 @@
       font-size: 27px;
       font-family: Quicksand;
       font-weight: normal;
-      padding-left: 87px;
+      padding-left: 77px;
       padding-top: 14px;
       color: red;
     }
@@ -1013,20 +1015,20 @@
       font-family: Quicksand;
       font-weight: bold;
       color: black;
-      margin-left: -5px;
+      margin-left: -15px;
     }
     .ug {
       background-image: none;
       margin-right: 13px;
       width: 210px;
       padding-right: 37px;
-      margin-top: 30px;
+      margin-top: 32px;
     }
     .ug h3 {
       font-size: 27px;
       font-family: Quicksand;
       font-weight: normal;
-      padding-left: 81px;
+      padding-left: 75px;
       padding-top: 14px;
       color: red;
     }
@@ -1037,7 +1039,7 @@
       font-family: Quicksand;
       font-weight: bold;
       color: black;
-      margin-left: -5px;
+      margin-left: -15px;
     }
     .prog_button1 {
       font-size: 13px;
@@ -1052,7 +1054,7 @@
       transition: all ease .5s;
       cursor: pointer;
       margin-top: 9px;
-      margin-left: 14px;
+      margin-left: -8px;
       border: none;
     }
     .prog_button1:hover {
@@ -1072,7 +1074,7 @@
       transition: all ease .5s;
       cursor: pointer;
       margin-top: 25px;
-      margin-left: 46px;
+      margin-left: 33px;
       border: none;
     }
     .prog_button2:hover {
@@ -1292,7 +1294,6 @@
       display: inline;
     }
     .news1_content {
-      height: 160px;
       width: 262px;
       border: 0.5px solid black;
       margin-left: 0;
@@ -1333,8 +1334,8 @@
       cursor: pointer;
       border: none;
       display: block;
-      margin-left: 88px;
-      margin-top: 7px;
+      margin-left: 100px;
+      margin-top: 20px;
     }
     .news1_button:hover {
       background-color: black;
@@ -1358,13 +1359,12 @@
       display: inline;
     }
     .news2_content {
-      height: 160px;
       width: 262px;
       border: 0.5px solid black;
       margin-left: 0;
       font-family: Quicksand;
       margin-top: -4px;
-      padding-top: 15px;
+      padding-top: 5px;
     }
     .news2_content p {
       font-size: 12px;
@@ -1400,7 +1400,7 @@
       border: none;
       display: block;
       margin-left: 100px;
-      margin-top: 22px;
+      margin-top: 20px;
     }
     .news2_button:hover {
       background-color: black;
@@ -1418,19 +1418,20 @@
       display: block;
     }
     .news3_content {
-      height: 160px;
       width: 262px;
       border: 0.5px solid black;
       margin-left: 0;
       font-family: Quicksand;
       margin-top: -4px;
+      padding-bottom: 15px;
+      padding-top: 15px;
     }
     .news3_content h6 {
       font-size: 12px;
       font-weight: bold;
       text-align: center;
       color: red;
-      padding-top: 15px;
+      /* padding-top: 15px; */
     }
     .pcnewscontent {
       display: inline-block;
@@ -1460,7 +1461,7 @@
       border: none;
       display: block;
       margin-left: 100px;
-      margin-top: 9px;
+      margin-top: 20px;
     }
     .news3_button:hover {
       background-color: black;
@@ -1727,7 +1728,7 @@
     }
     .contacts {
       float: right;
-      padding-right: 70px;
+      padding-right: 108px;
     }
     .contacts ul {
       list-style-type: none;
@@ -1746,6 +1747,7 @@
       cursor: pointer;
       display: inline-block;
       font-size: 20px;
+      padding-right: 37px;
     }
     .copy {
       width: 1024px;
