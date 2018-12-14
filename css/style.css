@@ -190,7 +190,7 @@
     margin-top: 50px;
     width: 87%;
     text-align: center;
-    margin-left: 20px;
+    margin-left: 21px;
   }
   .programmes::after {
     content: "";
@@ -520,7 +520,6 @@
   .news2 {
     margin-top: 30px;
     width: 87%;
-    height: 347px;
     margin-left: 23px;
   }
   .news2_content {
@@ -557,7 +556,7 @@
     color: white;
   }
   .view_button {
-    margin-top: 0px;
+    margin-top: 36px;
     margin-left: 58%;
     text-align: center;
     font-size: 18px;
