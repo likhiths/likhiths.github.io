@@ -190,7 +190,7 @@
     margin-top: 50px;
     width: 87%;
     text-align: center;
-    margin-left: 28px;
+    margin-left: 20px;
   }
   .programmes::after {
     content: "";
@@ -387,7 +387,7 @@
     font-family: Quicksand;
     width: 87%;
     height: auto;
-    margin-left: 28px;
+    margin-left: 20px;
   }
   .Research::after {
     content: "";
@@ -457,7 +457,7 @@
     margin-top: 54px;
     width: 87%;
     text-align: center;
-    margin-left: 28px;
+    margin-left: 15px;
     height: auto;
   }
   .news::after {
@@ -558,7 +558,7 @@
   }
   .view_button {
     margin-top: 0px;
-    margin-left: 65%;
+    margin-left: 58%;
     text-align: center;
     font-size: 18px;
     font-family: Quicksand;
@@ -582,7 +582,7 @@
   .events {
     margin-top: 50px;
     width: 87%;
-    margin-left: 40px;
+    margin-left: 23px;
     height: auto;
   }
   .events::after {
@@ -1364,7 +1364,7 @@
       margin-left: 0;
       font-family: Quicksand;
       margin-top: -4px;
-      padding-top: 5px;
+      padding-top: 15px;
     }
     .news2_content p {
       font-size: 12px;
