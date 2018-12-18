@@ -965,6 +965,21 @@
       color: white;
       border: 2px solid black;
     }
+    .main_button {
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+    }
+    .main_button:hover, .main_button:focus, .main_button:active {
+      -webkit-transform: scale(1.1) rotate(4deg);
+      transform: scale(1.1) rotate(4deg);
+    }
     /* end of main visual css */
     /* programmes css */
     .programmes {
@@ -1056,6 +1071,30 @@
       margin-left: -8px;
       border: none;
     }
+    .prog_button1 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+
+    .prog_button1 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: 5px;
+      transition: 0.5s;
+    }
+
+    .prog_button1:hover span {
+      padding-right: 10px;
+    }
+
+    .prog_button1:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
     .prog_button1:hover {
       background-color: black;
       color: white;
@@ -1072,9 +1111,33 @@
       text-align: center;
       transition: all ease .5s;
       cursor: pointer;
-      margin-top: 25px;
+      margin-top: 23px;
       margin-left: 33px;
       border: none;
+    }
+    .prog_button2 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+
+    .prog_button2 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: 5px;
+      transition: 0.5s;
+    }
+
+    .prog_button2:hover span {
+      padding-right: 10px;
+    }
+
+    .prog_button2:hover span:after {
+      opacity: 1;
+      right: 0;
     }
     .prog_button2:hover {
       background-color: black;
@@ -1085,7 +1148,7 @@
     .admission {
       margin-top: 50px;
       width: 79%;
-      height: 315px;
+      /* height: 315px; */
     }
     .admission::after {
       content: "";
@@ -1163,6 +1226,20 @@
       background-color: red;
       color: white;
     }
+    .ad_button {
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+    }
+    .ad_button:hover, .ad_button:focus, .ad_button:active {
+      -webkit-transform: translateX(8px);
+      transform: translateX(8px);
+    }
+
     /* end of admission css */
     /* research css  */
     .Research {
@@ -1240,10 +1317,24 @@
       border: none;
       margin-top: 10px;
       margin-left: 15px;
+      border: 0.5px solid black;
     }
     .research_button:hover {
       background-color: red;
       color: white;
+    }
+    .research_button {
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+    }
+    .research_button:hover, .research_button:focus, .research_button:active {
+      -webkit-transform: translateX(8px);
+      transform: translateX(8px);
     }
     /* end of research css */
     /* news css */
@@ -1340,6 +1431,19 @@
       background-color: black;
       color: white;
     }
+    .news1_button {
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+    }
+    .news1_button:hover, .news1_button:focus, .news1_button:active {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+      transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    }
     /* end of news1 */
     /* news2 css */
     .mobilenews2,.mobilenews1 {
@@ -1405,6 +1509,19 @@
       background-color: black;
       color: white;
     }
+    .news2_button {
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+    }
+    .news2_button:hover, .news1_button:focus, .news1_button:active {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+      transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    }
     /* end of news2 css */
     /* news3 css */
     .news3 {
@@ -1466,10 +1583,23 @@
       background-color: black;
       color: white;
     }
+    .news3_button {
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+    }
+    .news3_button:hover, .news1_button:focus, .news1_button:active {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+      transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    }
     /* end of news css */
     /* events css */
     .events {
-      margin-top: 0px;
+      margin-top: 30px;
       margin-left: 106px;
       width: 87%;
     }
@@ -1565,9 +1695,20 @@
       margin-left: 6px;
       margin-top: 11px;
     }
-    .event1_button:hover {
-      background-color: black;
-      color: white;
+    .event1_button {
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out;
+    }
+    .event1_button:hover, .event1_button:focus, .event1_button:active {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
     }
     .event2 {
       margin-top: 40px;
@@ -1622,6 +1763,21 @@
       background-color: black;
       color: white;
     }
+    .event2_button {
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out;
+    }
+    .event2_button:hover, .event1_button:focus, .event1_button:active {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
     .event3 {
       margin-top: 40px;
       display:block;
@@ -1675,6 +1831,21 @@
     .event3_button:hover {
       background-color: black;
       color: white;
+    }
+    .event3_button {
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out;
+    }
+    .event3_button:hover, .event1_button:focus, .event1_button:active {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
     }
     /* end of events css */
     /* footer css */
@@ -1747,6 +1918,84 @@
       display: inline-block;
       font-size: 20px;
       padding-right: 37px;
+    }
+    .fa-facebook-f {
+      -webkit-transform: perspective(5px) translateZ(0);
+      transform: perspective(5px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+    }
+    .fa-facebook-f:hover, .fa-facebook-f:focus, .fa-facebook-f:active {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    .fa-twitter {
+      -webkit-transform: perspective(5px) translateZ(0);
+      transform: perspective(5px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+    }
+    .fa-twitter:hover, .fa-twitter:focus, .fa-twitter:active {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    .fa-linkedin-in {
+      -webkit-transform: perspective(5px) translateZ(0);
+      transform: perspective(5px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+    }
+    .fa-linkedin-in:hover, .fa-linkedin-in:focus, .fa-linkedin-in:active {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    .fa-pinterest-p {
+      -webkit-transform: perspective(5px) translateZ(0);
+      transform: perspective(5px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+    }
+    .fa-pinterest-p:hover, .fa-pinterest-p:focus, .fa-pinterest-p:active {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    .fa-google-plus-g {
+      -webkit-transform: perspective(5px) translateZ(0);
+      transform: perspective(5px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+    }
+    .fa-google-plus-g:hover, .fa-google-plus-g:focus, .fa-google-plus-g:active {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    .fa-instagram {
+      -webkit-transform: perspective(5px) translateZ(0);
+      transform: perspective(5px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+    }
+    .fa-instagram:hover, .fa-instagram:focus, .fa-instagram:active {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
     }
     .copy {
       width: 1024px;
