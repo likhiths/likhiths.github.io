@@ -1017,7 +1017,7 @@
     .pg h3 {
       font-size: 27px;
       font-family: Quicksand;
-      font-weight: normal;
+      font-weight: bold;
       padding-left: 77px;
       padding-top: 14px;
       color: red;
@@ -1025,7 +1025,7 @@
     .pg p {
       width: 210px;
       text-align: center;
-      font-size: 13px;
+      font-size: 14px;
       font-family: Quicksand;
       font-weight: bold;
       color: black;
@@ -1041,7 +1041,7 @@
     .ug h3 {
       font-size: 27px;
       font-family: Quicksand;
-      font-weight: normal;
+      font-weight: bold;
       padding-left: 75px;
       padding-top: 14px;
       color: red;
@@ -1049,7 +1049,7 @@
     .ug p {
       width: 210px;
       text-align: center;
-      font-size: 13px;
+      font-size: 14px;
       font-family: Quicksand;
       font-weight: bold;
       color: black;
@@ -1067,7 +1067,7 @@
       text-align: center;
       transition: all ease .5s;
       cursor: pointer;
-      margin-top: 9px;
+      margin-top: 23px;
       margin-left: -8px;
       border: none;
     }
@@ -1392,7 +1392,7 @@
       padding-top: 15px;
     }
     .news1_content p {
-      font-size: 12px;
+      font-size: 14px;
       font-weight: bold;
       text-align: center;
       color: red;
@@ -1404,7 +1404,7 @@
       width: 219px;
       display: block;
       color: black ;
-      font-size: 12px;
+      font-size: 14px;
       font-weight: bold;
       font-family: Quicksand;
       text-align: justify;
@@ -1470,7 +1470,7 @@
       padding-top: 15px;
     }
     .news2_content p {
-      font-size: 12px;
+      font-size: 14px;
       font-weight: bold;
       text-align: center;
       color: red;
@@ -1482,7 +1482,7 @@
       width: 219px;
       display: block;
       color: black ;
-      font-size: 12px;
+      font-size: 14px;
       font-weight: bold;
       font-family: Quicksand;
       text-align: justify;
@@ -1543,7 +1543,7 @@
       padding-top: 15px;
     }
     .news3_content h6 {
-      font-size: 12px;
+      font-size: 14px;
       font-weight: bold;
       text-align: center;
       color: red;
@@ -1556,7 +1556,7 @@
       width: 219px;
       display: block;
       color: black ;
-      font-size: 12px;
+      font-size: 14px;
       font-weight: bold;
       font-family: Quicksand;
       text-align: justify;
@@ -1678,6 +1678,7 @@
       font-weight: 400;
     }
     .second1 {
+      font-family: Century gothic;
       font-size: 19px;
       font-weight: 400;
       margin-left: 3px;
@@ -1742,6 +1743,7 @@
       margin-left: 10px;
     }
     .second2 {
+      font-family: Century gothic;
       font-size: 19px;
       font-weight: 400;
       margin-left: 14px;
@@ -1811,6 +1813,7 @@
       margin-left: 22px;
     }
     .second3 {
+      font-family: Century gothic;
       font-size: 19px;
       font-weight: 400;
       margin-top: 9px;
