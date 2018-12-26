@@ -965,17 +965,6 @@
       color: white;
       border: 2px solid black;
     }
-    .main_button {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-      -webkit-transition-duration: 0.5s;
-      transition-duration: 0.5s;
-    }
-    .main_button:hover, .main_button:focus, .main_button:active {
-      -webkit-transform: scale(1.2);
-      transform: scale(1.2);
-    }
     /* end of main visual css */
     /* programmes css */
     .programmes {
@@ -1067,17 +1056,6 @@
       margin-left: -8px;
       border: none;
     }
-    .prog_button1 {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-      -webkit-transition-duration: 0.5s;
-      transition-duration: 0.5s;
-    }
-    .prog_button1:hover, .prog_button1:focus, .prog_button1:active {
-      -webkit-transform: scale(1.2);
-      transform: scale(1.2);
-    }
     .prog_button1:hover {
       background-color: black;
       color: white;
@@ -1097,17 +1075,6 @@
       margin-top: 23px;
       margin-left: 33px;
       border: none;
-    }
-    .prog_button2 {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-      -webkit-transition-duration: 0.5s;
-      transition-duration: 0.5s;
-    }
-    .prog_button2:hover, .prog_button2:focus, .prog_button2:active {
-      -webkit-transform: scale(1.2);
-      transform: scale(1.2);
     }
     .prog_button2:hover {
       background-color: black;
@@ -1196,18 +1163,6 @@
       background-color: red;
       color: white;
     }
-    .ad_button {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-      -webkit-transition-duration: 0.5s;
-      transition-duration: 0.5s;
-    }
-    .ad_button:hover, .ad_button:focus, .ad_button:active {
-      -webkit-transform: scale(1.2);
-      transform: scale(1.2);
-    }
-
     /* end of admission css */
     /* research css  */
     .Research {
@@ -1290,17 +1245,6 @@
     .research_button:hover {
       background-color: red;
       color: white;
-    }
-    .research_button {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-      -webkit-transition-duration: 0.5s;
-      transition-duration: 0.5s;
-    }
-    .research_button:hover, .research_button:focus, .research_button:active {
-      -webkit-transform: scale(1.2);
-      transform: scale(1.2);
     }
     /* end of research css */
     /* news css */
@@ -1397,17 +1341,6 @@
       background-color: black;
       color: white;
     }
-    .news1_button {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-      -webkit-transition-duration: 0.5s;
-      transition-duration: 0.5s;
-    }
-    .news1_button:hover, .news1_button:focus, .news1_button:active {
-      -webkit-transform: scale(1.2);
-      transform: scale(1.2);
-    }
     /* end of news1 */
     /* news2 css */
     .mobilenews2,.mobilenews1 {
@@ -1473,17 +1406,6 @@
       background-color: black;
       color: white;
     }
-    .news2_button {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-      -webkit-transition-duration: 0.5s;
-      transition-duration: 0.5s;
-    }
-    .news2_button:hover, .news2_button:focus, .news2_button:active {
-      -webkit-transform: scale(1.2);
-      transform: scale(1.2);
-    }
     /* end of news2 css */
     /* news3 css */
     .news3 {
@@ -1544,17 +1466,6 @@
     .news3_button:hover {
       background-color: black;
       color: white;
-    }
-    .news3_button {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-      -webkit-transition-duration: 0.5s;
-      transition-duration: 0.5s;
-    }
-    .news3_button:hover, .news3_button:focus, .news3_button:active {
-      -webkit-transform: scale(1.2);
-      transform: scale(1.2);
     }
     /* end of news css */
     /* events css */
@@ -1656,17 +1567,6 @@
       margin-left: 6px;
       margin-top: 11px;
     }
-    .event1_button {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-      -webkit-transition-duration: 0.5s;
-      transition-duration: 0.5s;
-    }
-    .event1_button:hover, .event1_button:focus, .event1_button:active {
-      -webkit-transform: scale(1.2);
-      transform: scale(1.2);
-    }
     .event2 {
       margin-top: 40px;
     }
@@ -1720,17 +1620,6 @@
     .event2_button:hover {
       background-color: black;
       color: white;
-    }
-    .event2_button {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-      -webkit-transition-duration: 0.5s;
-      transition-duration: 0.5s;
-    }
-    .event2_button:hover, .event2_button:focus, .event2_button:active {
-      -webkit-transform: scale(1.2);
-      transform: scale(1.2);
     }
     .event3 {
       margin-top: 40px;
@@ -1786,17 +1675,6 @@
     .event3_button:hover {
       background-color: black;
       color: white;
-    }
-    .event3_button {
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-      -webkit-transition-duration: 0.5s;
-      transition-duration: 0.5s;
-    }
-    .event3_button:hover, .event3_button:focus, .event3_button:active {
-      -webkit-transform: scale(1.2);
-      transform: scale(1.2);
     }
     /* end of events css */
     /* footer css */
