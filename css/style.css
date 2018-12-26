@@ -975,8 +975,6 @@
     .main_button:hover, .main_button:focus, .main_button:active {
       -webkit-transform: scale(1.2);
       transform: scale(1.2);
-      -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-      transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     }
     /* end of main visual css */
     /* programmes css */
@@ -1079,8 +1077,6 @@
     .prog_button1:hover, .prog_button1:focus, .prog_button1:active {
       -webkit-transform: scale(1.2);
       transform: scale(1.2);
-      -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-      transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     }
     .prog_button1:hover {
       background-color: black;
@@ -1112,8 +1108,6 @@
     .prog_button2:hover, .prog_button2:focus, .prog_button2:active {
       -webkit-transform: scale(1.2);
       transform: scale(1.2);
-      -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-      transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     }
     .prog_button2:hover {
       background-color: black;
@@ -1212,8 +1206,6 @@
     .ad_button:hover, .ad_button:focus, .ad_button:active {
       -webkit-transform: scale(1.2);
       transform: scale(1.2);
-      -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-      transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     }
 
     /* end of admission css */
@@ -1309,8 +1301,6 @@
     .research_button:hover, .research_button:focus, .research_button:active {
       -webkit-transform: scale(1.2);
       transform: scale(1.2);
-      -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-      transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     }
     /* end of research css */
     /* news css */
@@ -1417,8 +1407,6 @@
     .news1_button:hover, .news1_button:focus, .news1_button:active {
       -webkit-transform: scale(1.2);
       transform: scale(1.2);
-      -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-      transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     }
     /* end of news1 */
     /* news2 css */
@@ -1495,8 +1483,6 @@
     .news2_button:hover, .news2_button:focus, .news2_button:active {
       -webkit-transform: scale(1.2);
       transform: scale(1.2);
-      -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-      transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     }
     /* end of news2 css */
     /* news3 css */
@@ -1569,8 +1555,6 @@
     .news3_button:hover, .news3_button:focus, .news3_button:active {
       -webkit-transform: scale(1.2);
       transform: scale(1.2);
-      -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-      transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     }
     /* end of news css */
     /* events css */
@@ -1682,8 +1666,6 @@
     .event1_button:hover, .event1_button:focus, .event1_button:active {
       -webkit-transform: scale(1.2);
       transform: scale(1.2);
-      -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-      transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     }
     .event2 {
       margin-top: 40px;
@@ -1749,8 +1731,6 @@
     .event2_button:hover, .event2_button:focus, .event2_button:active {
       -webkit-transform: scale(1.2);
       transform: scale(1.2);
-      -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-      transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     }
     .event3 {
       margin-top: 40px;
@@ -1817,8 +1797,6 @@
     .event3_button:hover, .event3_button:focus, .event3_button:active {
       -webkit-transform: scale(1.2);
       transform: scale(1.2);
-      -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-      transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     }
     /* end of events css */
     /* footer css */
