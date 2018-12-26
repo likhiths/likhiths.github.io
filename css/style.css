@@ -1071,29 +1071,18 @@
       margin-left: -8px;
       border: none;
     }
-    .prog_button1 span {
-      cursor: pointer;
-      display: inline-block;
-      position: relative;
-      transition: 0.5s;
+    .prog_button1 {
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.5s;
+      transition-duration: 0.5s;
     }
-
-    .prog_button1 span:after {
-      content: '\00bb';
-      position: absolute;
-      opacity: 0;
-      top: 0;
-      right: 5px;
-      transition: 0.5s;
-    }
-
-    .prog_button1:hover span {
-      padding-right: 10px;
-    }
-
-    .prog_button1:hover span:after {
-      opacity: 1;
-      right: 0;
+    .prog_button1:hover, .prog_button1:focus, .prog_button1:active {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+      transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     }
     .prog_button1:hover {
       background-color: black;
@@ -1115,29 +1104,18 @@
       margin-left: 33px;
       border: none;
     }
-    .prog_button2 span {
-      cursor: pointer;
-      display: inline-block;
-      position: relative;
-      transition: 0.5s;
+    .prog_button2 {
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.5s;
+      transition-duration: 0.5s;
     }
-
-    .prog_button2 span:after {
-      content: '\00bb';
-      position: absolute;
-      opacity: 0;
-      top: 0;
-      right: 5px;
-      transition: 0.5s;
-    }
-
-    .prog_button2:hover span {
-      padding-right: 10px;
-    }
-
-    .prog_button2:hover span:after {
-      opacity: 1;
-      right: 0;
+    .prog_button2:hover, .prog_button2:focus, .prog_button2:active {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+      transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     }
     .prog_button2:hover {
       background-color: black;
@@ -1230,14 +1208,14 @@
       -webkit-transform: perspective(1px) translateZ(0);
       transform: perspective(1px) translateZ(0);
       box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-      -webkit-transition-duration: 0.3s;
-      transition-duration: 0.3s;
-      -webkit-transition-property: transform;
-      transition-property: transform;
+      -webkit-transition-duration: 0.5s;
+      transition-duration: 0.5s;
     }
     .ad_button:hover, .ad_button:focus, .ad_button:active {
-      -webkit-transform: translateX(8px);
-      transform: translateX(8px);
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+      transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     }
 
     /* end of admission css */
@@ -1327,14 +1305,14 @@
       -webkit-transform: perspective(1px) translateZ(0);
       transform: perspective(1px) translateZ(0);
       box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-      -webkit-transition-duration: 0.3s;
-      transition-duration: 0.3s;
-      -webkit-transition-property: transform;
-      transition-property: transform;
+      -webkit-transition-duration: 0.5s;
+      transition-duration: 0.5s;
     }
     .research_button:hover, .research_button:focus, .research_button:active {
-      -webkit-transform: translateX(8px);
-      transform: translateX(8px);
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+      transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     }
     /* end of research css */
     /* news css */
@@ -1516,7 +1494,7 @@
       -webkit-transition-duration: 0.5s;
       transition-duration: 0.5s;
     }
-    .news2_button:hover, .news1_button:focus, .news1_button:active {
+    .news2_button:hover, .news2_button:focus, .news2_button:active {
       -webkit-transform: scale(1.2);
       transform: scale(1.2);
       -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
@@ -1590,7 +1568,7 @@
       -webkit-transition-duration: 0.5s;
       transition-duration: 0.5s;
     }
-    .news3_button:hover, .news1_button:focus, .news1_button:active {
+    .news3_button:hover, .news3_button:focus, .news3_button:active {
       -webkit-transform: scale(1.2);
       transform: scale(1.2);
       -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
@@ -1700,16 +1678,14 @@
       -webkit-transform: perspective(1px) translateZ(0);
       transform: perspective(1px) translateZ(0);
       box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-      -webkit-transition-duration: 0.3s;
-      transition-duration: 0.3s;
-      -webkit-transition-property: transform;
-      transition-property: transform;
-      -webkit-transition-timing-function: ease-out;
-      transition-timing-function: ease-out;
+      -webkit-transition-duration: 0.5s;
+      transition-duration: 0.5s;
     }
     .event1_button:hover, .event1_button:focus, .event1_button:active {
-      -webkit-transform: translateY(-8px);
-      transform: translateY(-8px);
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+      transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     }
     .event2 {
       margin-top: 40px;
@@ -1769,16 +1745,14 @@
       -webkit-transform: perspective(1px) translateZ(0);
       transform: perspective(1px) translateZ(0);
       box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-      -webkit-transition-duration: 0.3s;
-      transition-duration: 0.3s;
-      -webkit-transition-property: transform;
-      transition-property: transform;
-      -webkit-transition-timing-function: ease-out;
-      transition-timing-function: ease-out;
+      -webkit-transition-duration: 0.5s;
+      transition-duration: 0.5s;
     }
-    .event2_button:hover, .event1_button:focus, .event1_button:active {
-      -webkit-transform: translateY(-8px);
-      transform: translateY(-8px);
+    .event2_button:hover, .event2_button:focus, .event2_button:active {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+      transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     }
     .event3 {
       margin-top: 40px;
@@ -1839,16 +1813,14 @@
       -webkit-transform: perspective(1px) translateZ(0);
       transform: perspective(1px) translateZ(0);
       box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-      -webkit-transition-duration: 0.3s;
-      transition-duration: 0.3s;
-      -webkit-transition-property: transform;
-      transition-property: transform;
-      -webkit-transition-timing-function: ease-out;
-      transition-timing-function: ease-out;
+      -webkit-transition-duration: 0.5s;
+      transition-duration: 0.5s;
     }
-    .event3_button:hover, .event1_button:focus, .event1_button:active {
-      -webkit-transform: translateY(-8px);
-      transform: translateY(-8px);
+    .event3_button:hover, .event3_button:focus, .event3_button:active {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+      transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     }
     /* end of events css */
     /* footer css */
